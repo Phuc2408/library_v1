@@ -8,14 +8,12 @@ import Homepage from './component/Homepage';
 function AppContent() {
 
   return (
-    <>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/home" element={<Homepage />} />
-        <Route path="/signup" element={<Signup />} />
-        { }
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/home" element={<Homepage />} />
+      <Route path="/signup" element={<Signup />} />
+      { }
+    </Routes>
   );
 }
 
