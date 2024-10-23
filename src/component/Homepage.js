@@ -1,8 +1,8 @@
 import React from 'react';
-import Sidebar from './component/Sidebar';
-import Header from './component/Header';
-import BookSection from './component/BookSection';
-import Footer from './component/Footer';
+import Sidebar from './Sidebar';
+import Header from './Header';
+import BookSection from './BookSection';
+import Footer from './Footer';
 
 const Homepage = () => {
     return (

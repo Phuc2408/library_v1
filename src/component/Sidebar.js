@@ -1,11 +1,12 @@
 // Sidebar.js
 import React from 'react';
 import '../css/home.css';
+import logo from "../images/logo.png";
 const Sidebar = () => {
     return (
         <div className="sidebar">
             <div className="sidebar-header">
-                <img src="../images/logo.png" alt="Library Logo" />
+                <img src={logo} alt="Library Logo" />
                 <h2>Library</h2>
             </div>
             <ul className="sidebar-nav">
